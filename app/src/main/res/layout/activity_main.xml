@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:id="@+id/tentang"
+       android:layout_width="200dp"
+       android:layout_height="100dp"
+       android:src="@drawable/btn_about"
+       android:layout_margin="10dp"
+       />
+
+   <ImageView
+       android:id="@+id/main"
+       android:layout_width="348dp"
+       android:layout_height="141dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="191dp"
+       android:layout_marginLeft="191dp"
+       android:layout_marginTop="133dp"
+       android:layout_marginEnd="190dp"
+       android:layout_marginRight="190dp"
+       android:layout_marginBottom="136dp"
+       app:srcCompat="@drawable/btn_main" />
+
+   <ImageView
+       android:id="@+id/imageView2"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_marginTop="10dp"
+       android:layout_marginEnd="24dp"
+       android:layout_marginRight="24dp"
+       app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>
